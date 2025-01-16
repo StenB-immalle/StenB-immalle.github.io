@@ -1,11 +1,15 @@
-h1 {
+body {
     font-family: serif;
+}
+
+h1 {
+
     color: #359bc9;
     font-size: 41px;
 }
 
 nav {
-    background-color: #333;
+    background-color: #d5e319;
     overflow: hidden;
 }
 
@@ -31,6 +35,44 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd;
     color: #333;
 }
+
+img {
+    width: 25%;
+    height: 15%;
+}
+
+.juffen
+{
+    width: 30%;
+    height: 20%;
+}
+aside {
+    float: right;
+    width: 18%;
+
+}
+
+aside {
+    width: 20%;
+    /* Adjust the width as needed */
+    background-color: #f0f0f0;
+    /* Background color for the sidebar */
+    padding: 20px;
+    /* Padding inside the sidebar */
+    float: right;
+    /* Position the sidebar to the right side of the main content */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a subtle shadow */
+    border-radius: 10px;
+    ;
+}
+
+aside ul {
+    font-size: 1.5em;
+    /* Font size for the heading */
+    margin-top: 0;
+    /* Remove the top margin */
+}
+
